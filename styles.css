@@ -1,0 +1,83 @@
+#left, #centre, #right {
+    border: 2px solid #A38F85;
+    padding: 5px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+#left, #centre, #right {
+    width: 30%;
+}
+
+#left {
+    float: left;
+    margin-right: 2%; /* Adjusted margin */
+    margin-left: 2%;
+}
+
+#centre {
+    float: left;
+    margin-left: 1%; /* Adjusted margin */
+    margin-right: 0%; /* Adjusted margin */
+}
+
+#right {
+    float: right;
+    margin-left: 2%; /* Adjusted margin */
+    margin-right: 2%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 40px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#header {
+    height: 80px;
+    background-color: #A38F85;
+    padding: 30px;
+}
+
+#left-header {
+    width: 40%;
+    float: left;
+}
+
+#right-header {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+nav ul {
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a:link, a:visited {
+    color: #EDE9E3;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #EDE9E3;
+    text-decoration: underline;
+}

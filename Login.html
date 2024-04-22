@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="headerstyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="left-header">
+            <h1>CampusReuse</h1>
+        </div>
+        <div id="right-header">
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Categories.html">Categories</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="Register1.html">Register</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr>
+
+    <div class="textbox">
+
+        <div style="height: 350px; width: 300px; float: left;">
+            <img src="Earth.png" width="300px" height="350px">
+        </div>
+
+        <div style="height: 350px; width: 300px; margin-left: 300px;">
+            <h3>Welcome Back!<br>Please login to your <b>CampusReuse</b> account</h3>
+            
+
+            <form method="POST" action="Login.php">
+                <p>Username:</p>
+                <input type="text" name="username" placeholder="Username">
+                <span class="error"><br><?php echo $usernameErr;?></span>
+                <br>
+                <p>Password:</p>
+                <input type="password" name="password" placeholder="Password">
+                <span class="error"><br><?php echo $passwordErr;?></span>
+                <br>
+                <button type="submit" name="Submit" style="color:black; text-decoration: none;">Submit</button>
+                <br>
+            </form>
+            <a href="Register1.html" style="color: black;">Not a user? Register</a>
+            <br>
+        </div>
+    </div>
+
+</body>
+</html>

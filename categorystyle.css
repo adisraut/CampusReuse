@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
+
+#header {
+    width: 100%; /* Make sure the header spans the entire width */
+    margin-bottom: 20px; /* Add some space between the header and the content */
+}
+
+#left,
+#centre,
+#right {
+    border: 2px solid #A38F85;
+    width: calc(33.33% - 4px); /* Adjusted width for three columns with borders */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#left {
+    margin-right: 2px; /* Adjust margin to avoid vertical lines */
+}
+
+#centre {
+    margin: 0 2px; /* Adjust margin to avoid vertical lines */
+}
+
+#right {
+    margin-left: 2px; /* Adjust margin to avoid vertical lines */
+}
+
+h2 {
+    text-align: center;
+}

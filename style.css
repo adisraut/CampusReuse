@@ -1,0 +1,106 @@
+h1
+{
+    color: #FFFFFF;
+}
+
+#head
+{
+    height: 80px;
+    background-color: #0F2C59;
+    padding: 30px;
+}
+
+#div1
+{
+    width: 40%;
+    float: left;
+}
+
+#div2
+{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.textbox
+{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 4px solid #0F2C59;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 350px;
+}
+
+input[type=text]
+{
+    border-bottom: 2px solid #0F2C59;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 30px;
+}
+
+input[type=email]
+{
+    border-bottom: 2px solid #0F2C59;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 30px;
+}
+
+input:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+input[type=password]
+{
+    border-bottom : 2px solid #0F2C59;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    height: 30px;
+}
+
+nav ul
+{
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li
+{
+    color: black;
+    display: inline;
+    margin-right: 20px;
+}
+
+button
+{
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 2px solid #0F2C59;
+    height: 40px;
+    width: 100px;
+    border-radius: 0px;
+}
+
+#container
+{
+    height: 150px;
+    text-align: center;
+    border: 4px solid #0F2C59;
+}
